@@ -16,3 +16,7 @@ bot.onText(/\/start/, (msg) => {
   console.log("Your chat ID is:", chatId);
   bot.sendMessage(chatId, '👋 Buybot is now active!');
 });
+bot.on('message', (msg) => {
+  console.log("Chat ID:", msg.chat.id);
+  bot.sendMessage(msg.chat.id, `Chat ID: ${msg.chat.id}`);
+});
