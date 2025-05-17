@@ -18,5 +18,5 @@ bot.onText(/\/start/, (msg) => {
 });
 bot.on('message', (msg) => {
   console.log("Chat ID:", msg.chat.id);
-  bot.sendMessage(msg.chat.id, `Chat ID: ${msg.chat.id}`);
+  bot.sendMessage(msg.chat.id, `👋 Chat ID: ${msg.chat.id}`);
 });
