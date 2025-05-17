@@ -1,5 +1,5 @@
 services:
-  - type: worker
+  - type: web            # ← changed from "worker"
     name: starknet-buybot
     env: node
     plan: free
@@ -7,6 +7,4 @@ services:
     startCommand: node index.js
     envVars:
       - key: TELEGRAM_BOT_TOKEN
-        value: 7435129967:AAH2hfp3ZWKNg56W2B4zJnkaMNToXQfdP9E
-      - key: TELEGRAM_CHAT_ID
-        value: YOUR_CHAT_ID
+        value: YOUR_TELEGRAM_TOKEN
