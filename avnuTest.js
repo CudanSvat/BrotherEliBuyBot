@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const TOKEN_ID = 'your-token-id';  // Replace with the token you want to test
+const TOKEN_ID = '0x02ab526354a39e7f5d272f327fa94e757df3688188d4a92c6dc3623ab79894e2';  // Replace with the token you want to test
 
 async function testAvnuAPI() {
   try {
