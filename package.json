@@ -1,14 +1,8 @@
 {
-  "name": "starknet-buybot",
+  "name": "avnu-test",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
+  "main": "avnuTest.js",
   "dependencies": {
-    "axios": "^1.4.0",
-    "dotenv": "^16.4.5",
-    "node-telegram-bot-api": "^0.61.0",
-    "express": "^4.18.2"
+    "axios": "^1.4.0"
   }
 }
