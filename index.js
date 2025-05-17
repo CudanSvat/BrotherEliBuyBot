@@ -1,7 +1,7 @@
 require('dotenv').config();
 const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
-
+require('./avnuWatcher');
 // ✅ Dummy web server to keep Render free plan happy
 const app = express();
 app.get("/", (req, res) => res.send("Buybot is running."));
