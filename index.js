@@ -16,3 +16,4 @@ bot.onText(/\/start/, (msg) => {
   console.log("Your chat ID is:", chatId);
   bot.sendMessage(chatId, '👋 Buybot is now active!');
 });
+bot.sendMessage(process.env.TELEGRAM_CHAT_ID, "✅ Bot connected to the private group!");
